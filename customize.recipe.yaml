@@ -6,9 +6,11 @@ recipe:
     - schema=luna_pinyin
   description: >-
     Customize input schema to show Chinese component suggestion with OpenCC
+
 install_files: >-
-  # component_suggestion.yaml
-  # opencc/*.*
+  component_suggestion.yaml
+  opencc/*.*
+  
 patch_files:
   ${schema:-luna_pinyin}.custom.yaml:
     - patch/+:
