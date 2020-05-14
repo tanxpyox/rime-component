@@ -1,0 +1,19 @@
+{
+  "name": "Cantonese Component",
+  "segmentation": {
+    "type": "mmseg",
+    "dict": {
+      "type": "text",
+      "file": "component_jyut6ping3.txt"
+    }
+  },
+  "conversion_chain": [{
+    "dict": {
+      "type": "group",
+      "dicts": [{
+        "type": "text",
+        "file": "component_jyut6ping3.txt"
+      }]
+    }
+  }]
+}

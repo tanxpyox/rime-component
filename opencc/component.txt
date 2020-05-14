@@ -1,27 +1,3 @@
-# Rime dictionary
-# encoding: utf-8
-#
-# Component - 拆字詞庫
-# 
-# 詞條數據參考：
-#   漢語拆字字典 <https://github.com/kfcd/chaizi>
-#
-# 碼表製作與校對人員
-#   開放詞典  <https://kaifangcidian.com>
-#   tanxpyox <tanxpyox@gmail.com> 
-#
-
----
-name: component_jyut6ping3
-version: "2020.05.14"
-use_preset_vocabulary: false
-import_tables:
-  - jyut6ping3
-columns:
-  - text
-  - code
-...
-
 丁	一亅
 丂	一乙
 七	一乚
