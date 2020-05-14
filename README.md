@@ -1,6 +1,8 @@
 # 中州韻粵拼拆字方案（只適用於繁體字）
 資料來源：[kfcd/chaizi](https://github.com/kfcd/chaizi)
 
+安裝（以朙月拼音爲例）：`bash rime-install tanxpyox/rime-component:customize:schema=luna_pinyin`
+
 本方案將上述來源的拆字字典轉換成中州韻可讀格式。
 
 資料來源授權條款：
