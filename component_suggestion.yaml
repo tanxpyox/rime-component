@@ -9,5 +9,5 @@ patch:
     simplifier@component_suggestion
   component_suggestion:
     opencc_config: component.json
-    option_name: component
+    option_name: component_suggestion
     tips: all
