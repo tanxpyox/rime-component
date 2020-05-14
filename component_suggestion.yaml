@@ -3,7 +3,6 @@
 patch:
   switches/@next:
     name: component_suggestion
-    reset: 1
     states: [ "合字", "拆字" ]
   'engine/filters/@before 0':
     simplifier@component_suggestion
