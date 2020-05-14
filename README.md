@@ -1,4 +1,4 @@
-# 中州韻粵拼拆字方案（只適用於繁體字）
+# 中州韻拆字後臺程式（只適用於繁體字）
 資料來源：[kfcd/chaizi](https://github.com/kfcd/chaizi)
 
 安裝（以朙月拼音爲例）：`bash rime-install tanxpyox/rime-component:customize:schema=luna_pinyin`
