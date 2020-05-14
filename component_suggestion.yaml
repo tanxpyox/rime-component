@@ -2,12 +2,12 @@
 
 patch:
   switches/@next:
-    name: component_jyut6ping3_suggestion
+    name: component_suggestion
     reset: 0
-    states: [ "冇拆字資料", "有拆字資料" ]
+    states: [ "無拆字資料", "有拆字資料" ]
   'engine/filters/@before 0':
-    simplifier@component_jyut6ping3_suggestion
-  component_jyut6ping3_suggestion:
-    opencc_config: component_jyut6ping3.json
-    option_name: component_jyut6ping3
+    simplifier@component_suggestion
+  component_suggestion:
+    opencc_config: component.json
+    option_name: component
     tips: all
