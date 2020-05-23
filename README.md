@@ -3,7 +3,7 @@
 
 安裝（以朙月拼音爲例）：`bash rime-install tanxpyox/rime-component:customize:schema=luna_pinyin`
 
-如果想係粵語拼音輸入法入面用拆字反查，請參閱 https://github.com/tanxpyox/rime-component-jyutping 嘅安裝教程。
+如果想喺粵語拼音輸入法入面用拆字反查，請參閱 https://github.com/tanxpyox/rime-component-jyutping 嘅安裝教程。
 
 本方案將上述來源的拆字字典轉換成中州韻可讀格式。
 
